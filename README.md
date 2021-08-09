@@ -53,7 +53,7 @@ function handleResponse({ success, data, message }) {
       console.table(data);
     }
   } else {
-    console.error(message);
+    console.error(message); //User Closed Extension
   }
 }
 ```
