@@ -18,6 +18,8 @@ In your html page include the follwing
 ```html
 <div id="record-video-button"></div>
 <!--the div container which holds the button-->
+<input type="text" id="return-control-id" />
+<!--the input text which will holds sharedUrl-->
 ```
 
 In script tag include the following
