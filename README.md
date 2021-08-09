@@ -39,6 +39,14 @@ const recordVideoButton = new RecordVideoButton(
 );
 ```
 
+the handleResponse function , is a callback function which accept object with three parameters
+
+```javascript
+function handleResponse({ success, data, message }) {
+  //
+}
+```
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
