@@ -34,8 +34,8 @@ const recordVideoButton = new RecordVideoButton(
     copyToClipboard: true,
     returnControlId: "return-control-id",
   },
-  handleResponse,
-  handleResponse
+  handleResponse, // handle success
+  handleResponse // handle failure
 );
 ```
 
