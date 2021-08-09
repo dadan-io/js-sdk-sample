@@ -56,6 +56,12 @@ function handleResponse({ success, data, message }) {
 }
 ```
 
+## Record Button Object
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
