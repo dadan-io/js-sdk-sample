@@ -65,11 +65,11 @@ function handleResponse({ success, data, message }) {
 | `containerId`     | `string`  | **Required**. the container id that holds the button                                        |
 | `title`           | `string`  | **Required**. button title                                                                  |
 | `type`            | `string`  | **Required**. either record or select , else will show error                                |
-| `buttonClass`     | `string`  | **optional**. the default class , or your custom class                                      |
-| `buttonStyle`     | `string`  | **optional**. the default style , or your custom style as string                            |
-| `showSvg`         | `boolean` | **optional**. to show Svg icon in button                                                    |
-| `showPreview`     | `boolean` | **optional**. to show preview dialog of recorded video                                      |
-| `copyToClipboard` | `boolean` | **optional**. to notify user that video shared url was copied to clipboard as toast message |
+| `buttonClass`     | `string`  | **Optional**. the default class , or your custom class                                      |
+| `buttonStyle`     | `string`  | **Optional**. the default style , or your custom style as string                            |
+| `showSvg`         | `boolean` | **Optional**. to show Svg icon in button                                                    |
+| `showPreview`     | `boolean` | **Optional**. to show preview dialog of recorded video                                      |
+| `copyToClipboard` | `boolean` | **Optional**. to notify user that video shared url was copied to clipboard as toast message |
 
 ## Contributing
 
