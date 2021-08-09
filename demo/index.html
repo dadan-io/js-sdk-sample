@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/assets/css/styles.min.css" type="text/css" />
+    
+    <title>::index::</title>
+</head>
+
+<body>
+
+    <input type="text" class="record-video" style="width: 80%;margin-top: 10px;margin-bottom: 10px;" />
+    <input type="text" class="select-video" style="width: 80%;margin-top: 10px;margin-bottom: 10px;" />
+
+    <div id="record-video-button"></div>
+    <br />
+    <div id="select-video-button"></div>
+
+   
+    <script src="../src/index-development.js"></script>
+    <script>
+
+        const configurationRecordButton = new RecordVideoButton({
+            showSvg: true,
+            title: "Record My Video",
+            buttonClass: "",
+            buttonStyle: "",
+        });
+        RecordVideoButton.showPreview = true;
+        RecordVideoButton.copyToClipboard = true;
+
+        const configurationSelectButton = new SelectVideoButton({
+            showSvg: true,
+            title: "Select My Video",
+            buttonClass: "",
+            buttonStyle: "",
+        });
+        SelectVideoButton.showPreview = true;
+        SelectVideoButton.copyToClipboard = true;
+        SelectVideoButton.onSuccess = function ({ success, data, message }) {
+            debugger
+        };
+        SelectVideoButton.onFailure = function ({ success, data, message }) {
+            debugger
+        };
+        function handleSelectVideResponse(response) {
+            debugger
+            const { success, data, message } = response;
+            if (success) {
+                if (data) {
+                    console.table(data);
+                }
+            } else {
+                console.table(message);
+            }
+        }
+    </script>
+</body>
+
+</html>
