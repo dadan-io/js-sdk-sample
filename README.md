@@ -14,16 +14,21 @@ import the following scripts into your web page
 ## Usage
 
 ```javascript
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+const recordVideoButton = new RecordVideoButton(
+  {
+    containerId: "record-video-button",
+    title: "Select Video",
+    type: "select",
+    buttonClass: "dd__record__button__default__class",
+    buttonStyle: "",
+    showSvg: true,
+    showPreview: true,
+    copyToClipboard: true,
+    returnControlId: "return-control-id",
+  },
+  handleResponse,
+  handleResponse
+);
 ```
 
 ## Contributing
