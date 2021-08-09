@@ -13,7 +13,7 @@ import the following scripts into your web page
 
 ## Usage
 
-```python
+```javascript
 import foobar
 
 # returns 'words'
