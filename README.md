@@ -1,10 +1,10 @@
 # Dadan Sdk CDN
 
-A lightweight JavaScript library for checking, validating, and manipulating Google Dadan Extension.
+A lightweight JavaScript sample shows how to use [Google Dadan Extension](https://haal.link.sa/onboarding/download) for checking, validating, and manipulating videos
 
 ## How It Works ?
 
-import the following scripts into your web page
+we add the following scripts into index.html web page
 
 ```bash
 <script src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-core.js"></script>
@@ -13,7 +13,7 @@ import the following scripts into your web page
 
 ## Usage
 
-In your html page include the follwing
+In your html page we include the follwing
 
 ```html
 <div id="record-video-button"></div>
@@ -22,7 +22,7 @@ In your html page include the follwing
 <!--the input text which will holds sharedUrl-->
 ```
 
-In script tag include the following
+In script tag we include the following
 
 ```javascript
 const recordVideoButton = new RecordVideoButton(
