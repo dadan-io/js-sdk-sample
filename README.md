@@ -4,6 +4,11 @@ A lightweight JavaScript library for checking, validating, and manipulating Goog
 
 ## Installation
 
+import the following scripts into your web page
+
+<script src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-core.js"></script>
+<script src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-cdn.js"></script>
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
