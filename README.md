@@ -2,7 +2,7 @@
 
 A lightweight JavaScript library for checking, validating, and manipulating Google Dadan Extension.
 
-## Installation
+## How It Works ?
 
 import the following scripts into your web page
 
