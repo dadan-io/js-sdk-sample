@@ -1,6 +1,6 @@
 # Dadan Sdk CDN
 
-A JavaScript library for checking, validating, and manipulating with Google Dadan Extension.
+A lightweight JavaScript library for checking, validating, and manipulating with Google Dadan Extension.
 
 ## Installation
 
