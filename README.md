@@ -16,7 +16,7 @@ import the following scripts into your web page
 ```javascript
 const recordVideoButton = new RecordVideoButton(
   {
-    containerId: "record-video-button",
+    containerId: "record-video-button", // the id for control which holds button ....ex : <div id="record-video-button"></div>
     title: "Select Video",
     type: "select",
     buttonClass: "dd__record__button__default__class",
