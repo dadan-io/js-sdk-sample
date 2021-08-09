@@ -13,6 +13,12 @@ import the following scripts into your web page
 
 ## Usage
 
+In your html page include the follwing
+
+```html
+<div id="record-video-button"></div>
+```
+
 In script tag include the following
 
 ```javascript
