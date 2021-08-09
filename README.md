@@ -58,7 +58,7 @@ function handleResponse({ success, data, message }) {
 }
 ```
 
-## Record Button Object
+## Record Button Object Options
 
 | Parameter         | Type      | Description                                                                                 |
 | :---------------- | :-------- | :------------------------------------------------------------------------------------------ |
