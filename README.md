@@ -58,10 +58,11 @@ function handleResponse({ success, data, message }) {
 
 ## Record Button Object
 
-| Parameter     | Type     | Description                                          |
-| :------------ | :------- | :--------------------------------------------------- |
-| `containerId` | `string` | **Required**. the container id that holds the button |
-| `api_key`     | `string` | **Required**. Your API key                           |
+| Parameter     | Type     | Description                                                  |
+| :------------ | :------- | :----------------------------------------------------------- |
+| `containerId` | `string` | **Required**. the container id that holds the button         |
+| `title`       | `string` | **Required**. button title                                   |
+| `type`        | `string` | **Required**. either record or select , else will show error |
 
 ## Contributing
 
