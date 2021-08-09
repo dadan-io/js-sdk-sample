@@ -70,12 +70,7 @@ function handleResponse({ success, data, message }) {
 | `showSvg`         | `boolean` | **Optional**. to show Svg icon in button                                                    |
 | `showPreview`     | `boolean` | **Optional**. to show preview dialog of recorded video                                      |
 | `copyToClipboard` | `boolean` | **Optional**. to notify user that video shared url was copied to clipboard as toast message |
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+| `returnControlId` | `string`  | **Optional**. the input text id which will holds sharedUrl of recorded video                |
 
 ## License
 
