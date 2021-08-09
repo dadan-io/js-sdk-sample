@@ -45,7 +45,7 @@ the handleResponse function , is a callback function which accept object with th
 ```javascript
 function handleResponse({ success, data, message }) {
   if (success) {
-    // only false when user close extension.
+    // only false when user close extension
     if (data) {
       // represnts the selected videos , or recorded video object after stop recording
       console.table(data);
