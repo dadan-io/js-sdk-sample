@@ -1,6 +1,6 @@
 # Dadan Sdk CDN
 
-Foobar is a Python library for dealing with word pluralization.
+A JavaScript library for checking, validating, and manipulating with Google Dadan Extension.
 
 ## Installation
 
