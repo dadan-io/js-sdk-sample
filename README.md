@@ -26,7 +26,6 @@ In script tag include the following
 const recordVideoButton = new RecordVideoButton(
   {
     containerId: "record-video-button",
-    //the div container which holds the button
     title: "Select Video",
     type: "select",
     buttonClass: "dd__record__button__default__class",
@@ -45,7 +44,15 @@ the handleResponse function , is a callback function which accept object with th
 
 ```javascript
 function handleResponse({ success, data, message }) {
-  //
+  if (success) {
+    // only false when user close extension.
+    if (data) {
+      // represnts the selected videos , or recorded video object after stop recording
+      console.table(data);
+    }
+  } else {
+    console.error(message);
+  }
 }
 ```
 
