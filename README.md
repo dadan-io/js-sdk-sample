@@ -8,17 +8,17 @@ import the following scripts into your web page
 
 ```bash
 <script src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-core.js"></script>
-<script src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-cdn.js"></script>
+<scrip src="https://resources-dadan-io.s3.eu-central-1.amazonaws.com/sdk/dadan-extension-cdn.js"></script>
 ```
 
 ## Usage
 
+In script tag include the following
+
 ```javascript
-<script>
 const recordVideoButton = new RecordVideoButton(
   {
     containerId: "record-video-button",
-    // the id for control which holds button ....ex : <div id="record-video-button"></div>
     title: "Select Video",
     type: "select",
     buttonClass: "dd__record__button__default__class",
@@ -31,7 +31,6 @@ const recordVideoButton = new RecordVideoButton(
   handleResponse,
   handleResponse
 );
-</script>
 ```
 
 ## Contributing
