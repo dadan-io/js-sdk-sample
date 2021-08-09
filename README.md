@@ -14,9 +14,11 @@ import the following scripts into your web page
 ## Usage
 
 ```javascript
+<script>
 const recordVideoButton = new RecordVideoButton(
   {
-    containerId: "record-video-button", // the id for control which holds button ....ex : <div id="record-video-button"></div>
+    containerId: "record-video-button",
+    // the id for control which holds button ....ex : <div id="record-video-button"></div>
     title: "Select Video",
     type: "select",
     buttonClass: "dd__record__button__default__class",
@@ -29,6 +31,7 @@ const recordVideoButton = new RecordVideoButton(
   handleResponse,
   handleResponse
 );
+</script>
 ```
 
 ## Contributing
