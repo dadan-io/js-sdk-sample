@@ -17,6 +17,7 @@ In your html page include the follwing
 
 ```html
 <div id="record-video-button"></div>
+<!--the div container which holds the button-->
 ```
 
 In script tag include the following
@@ -25,6 +26,7 @@ In script tag include the following
 const recordVideoButton = new RecordVideoButton(
   {
     containerId: "record-video-button",
+    //the div container which holds the button
     title: "Select Video",
     type: "select",
     buttonClass: "dd__record__button__default__class",
